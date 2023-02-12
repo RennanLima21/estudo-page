@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0px 80px;
+  background-color: #2e948a;
+  height: 117px;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+  width: 309px;
+}
+
+.links a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #fdfdfd;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 78px;
+}
+
+.content-about {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+/* .content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+
+.text-main {
+  width: 363px;
+  height: 70px;
+  line-height: 24.55px;
+}
+
+.text-name {
+  margin-top: 10px;
+  width: 76px;
+  height: 23px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 137px 0px 128px;
+  background-color: #2e948a;
+  height: 207px;
+}
+
+.links-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.links-footer a {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: lowercase;
+}
+
+.buttons-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.buttons-footer button {
+  color: #ffffff;
+  border: 2px solid #fff;
+  border-radius: 62px;
+  width: 289px;
+  height: 51px;
+}
