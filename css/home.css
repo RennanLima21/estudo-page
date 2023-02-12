@@ -64,11 +64,11 @@ button {
   gap: 28px;
 }
 
-/* .content-text {
+ .content-text {
   display: flex;
   flex-direction: column;
   gap: 10px;
-} */
+} 
 
 .text-main {
   width: 363px;
